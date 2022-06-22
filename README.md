@@ -77,3 +77,5 @@ grant
 	,SELECT ANY TABLE
 to LIGHTBOX00
 ```
+
+![image](https://user-images.githubusercontent.com/1501327/174956335-ea53d665-8eb5-4ca0-9bf3-fca387d0477a.png)
