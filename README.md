@@ -34,3 +34,46 @@ XEPDB1 =
 ![image](https://user-images.githubusercontent.com/1501327/174955274-6d628f6f-4221-43fd-b251-b37aa288836e.png)
 
 ![image](https://user-images.githubusercontent.com/1501327/174955605-3e47802c-61b8-4db0-9bf5-3500151abb76.png)
+
+```sql
+create tablespace LIGHTBOX00_SPACE
+	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX00PDB.DBF'
+	size 5M
+	autoextend on
+	next 1M
+	maxsize unlimited
+	segment space management AUTO;
+
+create user LIGHTBOX00
+	identified by trustno1
+	default tablespace LIGHTBOX00_SPACE
+	temporary tablespace TEMP
+	quota unlimited on LIGHTBOX00_SPACE
+	account UNLOCK;
+	
+grant 
+	 ALTER PROFILE
+	,ALTER SESSION
+	,ALTER SYSTEM
+	,ALTER TABLESPACE
+	,ALTER USER
+	,CREATE ANY DIRECTORY
+	,CREATE PROCEDURE
+	,CREATE PROFILE
+	,CREATE PUBLIC SYNONYM
+	,CREATE ROLE
+	,CREATE ROLLBACK SEGMENT
+	,CREATE SEQUENCE
+	,CREATE SESSION
+	,CREATE SYNONYM
+	,CREATE TABLE
+	,CREATE TABLESPACE
+	,CREATE TRIGGER
+	,CREATE VIEW
+	,DROP ANY DIRECTORY
+	,EXECUTE ANY PROCEDURE
+	,SELECT ANY DICTIONARY
+	,SELECT ANY SEQUENCE
+	,SELECT ANY TABLE
+to LIGHTBOX00
+```
