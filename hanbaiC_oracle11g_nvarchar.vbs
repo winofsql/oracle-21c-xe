@@ -1,7 +1,3 @@
-' ************************************************
-' 管理者権限でコマンドプロンプトで実行を強制して、
-' 最後に pause する
-' ************************************************
 Set Shell = CreateObject("Shell.Application")
 Set WshShell = Wscript.CreateObject("WScript.Shell")
 if Wscript.Arguments.Count = 0 then
@@ -10,12 +6,6 @@ if Wscript.Arguments.Count = 0 then
 	WScript.Quit
 end if
 
-' ************************************************
-' 基本設定
-' Microsoft ODBC for Oracle で実行できます
-' DSN を作成して動作確認して指定して下さい
-' ( 参考:http://lightbox.matrix.jp/ginpro/patio.cgi?mode=view&no=225&type=ref )
-' ************************************************
 ' このスクリプトが存在するディレクトリを取得
 strCurDir = WScript.ScriptFullName
 strCurDir = Replace( strCurDir, WScript.ScriptName, "" )
@@ -23,8 +13,8 @@ strMdbPath = strCurDir & "販売管理C.mdb"
 
 ' Oracle のホスト文字列
 ' ( ローカル・ネット・サービス名 )
-strTarget = "{Oracle in instantclient_21_6}"	' ODBC ドライバ
-strDBQ = "localhost:1521/XEPDB1"	' ネット・サービス名として XE のみでも OK
+strTarget = "{Oracle in instantclient_21_6}"
+strDBQ = "localhost:1521/XEPDB1"
 ' スキーマ(ユーザ)
 strSc = "LIGHTBOX02"
 ' パスワード
