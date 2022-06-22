@@ -17,3 +17,14 @@
 ![image](https://user-images.githubusercontent.com/1501327/174952300-c6b1f9b9-5be0-4317-808b-5f9b3abb5a25.png)
 
 ![image](https://user-images.githubusercontent.com/1501327/174952530-966ec3e9-80fa-468d-b609-9400a3dba0c9.png)
+
+```
+XEPDB1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = R101-00)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = XEPDB1)
+    )
+  )
+```
