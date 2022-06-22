@@ -83,5 +83,5 @@ to LIGHTBOX00
 ![image](https://user-images.githubusercontent.com/1501327/174964628-bf818aeb-ff14-49b3-975f-db649d96d54c.png)
 
 ```
-"C:\Windows\SysWOW64\cscript.exe" hanbaiC_oracle11g_nvarchar.vbs
+"C:\Windows\SysWOW64\cscript.exe" hanbaiC_oracle21c_nvarchar.vbs
 ```
