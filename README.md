@@ -89,3 +89,8 @@ to LIGHTBOX00
 ```
 "C:\Windows\SysWOW64\cscript.exe" hanbaiC_oracle21c_nvarchar.vbs
 ```
+
+### VSCode 拡張で接続
+![image](https://user-images.githubusercontent.com/1501327/175455867-ec259ec5-3ba7-4cb1-8779-c464f9f7c0f9.png)\
+![image](https://user-images.githubusercontent.com/1501327/175455814-eb964a8a-4f44-46ed-ac59-3ef5ab9c2b6c.png)\
+![image](https://user-images.githubusercontent.com/1501327/175455721-e2b70bb3-e510-45e3-abef-61a6d87ca282.png)
