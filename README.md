@@ -18,6 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/1501327/174952530-966ec3e9-80fa-468d-b609-9400a3dba0c9.png)
 
+### "C:\app\lightbox\product\21c\homes\OraDB21Home1\network\admin\tnsnames.ora"
 ```
 XEPDB1 =
   (DESCRIPTION =
