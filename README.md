@@ -30,6 +30,8 @@ XEPDB1 =
   )
 ```
 
+### NLS_LANG : Japanese_Japan.JA16SJIS
+
 ![image](https://user-images.githubusercontent.com/1501327/174953229-036e9154-420f-4046-afad-79fe7dd0f6d0.png)
 
 [Oracle Instant Client Downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)\
