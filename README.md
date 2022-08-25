@@ -32,7 +32,7 @@ XEPDB1 =
 
 ![image](https://user-images.githubusercontent.com/1501327/174953229-036e9154-420f-4046-afad-79fe7dd0f6d0.png)
 
-[Oracle Instant Client Downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)
+[Oracle Instant Client Downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)\
 ![image](https://user-images.githubusercontent.com/1501327/186780032-1fee9b62-1acc-4797-ab5c-363c6fafc3f1.png)
 
 
